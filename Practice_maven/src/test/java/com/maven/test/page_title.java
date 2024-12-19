@@ -20,10 +20,15 @@ public class page_title {
 	
 	System.out.println("Page Title: " + pageTitle);
 	
+	driver.findElement(By.name("email")).sendKeys("Ermit@yopmail.com");
+	driver.findElement(By.name("password")).sendKeys("Admin@123");
+	
+	driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div/div/div/div[2]/div/form/div/button")).click();
+	
 	
 
   
-System.out.println("successfull");
+	System.out.println("successfull");
   
 	
 
